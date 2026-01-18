@@ -3,11 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class IntroManager : MonoBehaviour
 {
-    void Update()
+    public void StartGame()
     {
-        if (Input.anyKeyDown || Input.touchCount > 0)
-        {
-            SceneManager.LoadScene("MainScene");
-        }
+        SceneManager.LoadScene("MainScene");
     }
 }

@@ -2225,6 +2225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1310360485}
   - component: {fileID: 1310360484}
+  - component: {fileID: 1310360486}
   m_Layer: 0
   m_Name: Road
   m_TagString: Untagged
@@ -2306,6 +2307,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1310360486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310360483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6f9fd6e4b6e50446b379a7c94861a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BackgroundScaler
 --- !u!1 &1462491287
 GameObject:
   m_ObjectHideFlags: 0
